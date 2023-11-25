@@ -1,9 +1,9 @@
 <script>
 	/** @type {import('./$types').PageData} */
     import mockData from "../../mock/mockDataCityCouncil.json";
-
     
 </script>
+
 
 
 {#each mockData.result as element (element.id)}

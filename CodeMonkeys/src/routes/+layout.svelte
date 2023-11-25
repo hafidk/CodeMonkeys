@@ -9,6 +9,7 @@
   import TrendingUp from "svelte-material-icons/TrendingUp.svelte";
   import AccountStar from "svelte-material-icons/AccountStar.svelte";
   import TownHall from "svelte-material-icons/TownHall.svelte";
+  import { fly } from 'svelte/transition';
 </script>
 
 <style>
@@ -27,7 +28,7 @@
     display: flex;
     place-content: space-between;
     color: black;
-
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
   .sidebar {
@@ -50,7 +51,12 @@
   .icon {
     margin-top: 5px;
   }
+  .container {
+    transition: opacity 0.5s;
+  }
 </style>
+
+
 
 <div class="layout">
   <div class="header">
@@ -80,7 +86,10 @@
 
   <div class="content">
     <!-- Main content goes here -->
-    <slot></slot>
+    <div transition:fly="{{ x: -100, duration: 500 }}" class="container">
+      <slot></slot>
+    </div>
+    
   </div>
 </div>
 </div>
