@@ -4,7 +4,6 @@
 
     
 </script>
-<h1>Propostes Ajuntament de Manresa</h1>
 
 
 {#each mockData.result as element (element.id)}

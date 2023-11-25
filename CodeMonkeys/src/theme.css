@@ -3,8 +3,8 @@
 :root {
   --primary-color: #6A0572; /* Deep Purple */
   --secondary-color: #E27D60; /* Salmon */
-  --accent-color: #FFAA5E; /* Apricot */
-  --background-color: #F7E4B2; /* Pale Yellow */
+  --accent-color: #993333; /* Apricot */
+  --background-color: #e3e3e3; /* Pale Yellow */
   --text-color: #004080; /* Navy Blue */
 }
 
@@ -44,7 +44,7 @@ li {
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 20px;
-  background-color: red;
+  background-color: white;
   text-align: center;
 }
 
