@@ -4,7 +4,7 @@
   --primary-color: #6A0572; /* Deep Purple */
   --secondary-color: #E27D60; /* Salmon */
   --accent-color: #993333; /* Apricot */
-  --background-color: #e3e3e3; /* Pale Yellow */
+  --background-color: white; /* Pale Yellow */
   --text-color: #004080; /* Navy Blue */
 }
 
@@ -16,7 +16,7 @@ body {
 
 /* Header Styles */
 header {
-  background-color: var(--primary-color);
+  background-color: white;
   padding: 10px;
   color: white;
 }
@@ -41,11 +41,13 @@ ul {
 li {
   font-size: 30px;
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 10px;
   border-radius: 20px;
   background-color: white;
   text-align: center;
+  justify-content: center;
+  display: flex;
 }
 
 a {

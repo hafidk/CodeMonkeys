@@ -6,6 +6,7 @@
 </script>
   
 
+
 <style>
    @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
   /* This pen */
@@ -19,8 +20,6 @@
     text-decoration: none;
     transition: color 0.3s ease-in-out;
   }
-
-
 
   /* Cards */
   .postcard {
@@ -196,8 +195,3 @@
     </div>
   </article>
 {/each}
-
-
-
-  
-  

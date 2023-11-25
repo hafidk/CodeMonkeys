@@ -1,11 +1,8 @@
 <script>
 	/** @type {import('./$types').PageData} */
-  
     import ThumbUp from "svelte-material-icons/ThumbUp.svelte";
     import mockData from "../../mock/mockData.json";
-    const sortedList = mockData.result.sort((a, b) => b.votes - a.votes);
-
-    
+    const sortedList = mockData.result.sort((a, b) => b.votes - a.votes); 
 </script>  
 
 <style>
@@ -144,7 +141,6 @@
     .postcard.dark .postcard__text:before {
       background: #18151f;
     }
-
   
   }
   /* COLORS */
@@ -166,7 +162,7 @@
       background-image: linear-gradient(80deg, rgba(0, 118, 189, 0.1), transparent 50%);
     }
   }
-
+  
   .pill {
     position: absolute;
     top: 10px;
@@ -198,8 +194,3 @@
     </div>
   </article>
 {/each}
-
-
-
-  
-  

@@ -1,39 +1,68 @@
 {
-    "result": [{
-        "id":"1",
-        "author": "Lorem",
-        "title": "Ipsum Dolor",
-        "prompt": "remove bench",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero.",
-        "image": "./imageExample.png",
-        "geoLocation": {
-            "lat": 1,
-            "long": 1
-        },
-        "votes": 100},
+    "result": [
         {
-            "id":"2",
-            "author": "Lorem2",
-            "title": "Ipsum Dolor",
-            "prompt": "remove bench",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. ",
-            "image": "./imageExample.png",
-            "geoLocation": {
-                "lat": 1,
-                "long": 1
-            },
-            "votes": 200},
-            {
-                "id":"3",
-                "author": "CodeMonkeys",
-                "title": "Ipsum Dolor",
-                "prompt": "remove bench",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero.",
-                "image": "./imageExample.png",
-                "geoLocation": {
-                    "lat": 1,
-                    "long": 1
-                },
-                "votes": 10}
+            "id": "1",
+            "author": "Jordi Costa",
+            "title": "Afegir art modern a la plaça major",
+            "description": "La presència de l'art modern a la plaça de l'ajuntament és essencial per enriqueir la nostra experiència urbana. Aquesta forma d'expressió creativa pot inspirar, provocar la reflexió i connectar les persones amb les seves arrels culturals i contemporànies. L'art modern no només decora, sinó que també comunica les múltiples narratives de la nostra societat, donant vida i diversitat al cor del nostre municipi.",
+            "image": "./addModernArt.png",
+            "votes": 312
+        },
+        {
+            "id": "2",
+            "author": "Anna Roca",
+            "title": "Cargadors Usb als bancs del passeig",
+            "description": "Cargadors USB als bancs milloren la comoditat pública, permetent que tothom carregui els seus dispositius mentre gaudeix de l'espai exterior, connectant-se i mantenint-se en contacte sense preocupar-se de la bateria.",
+            "image": "./addUsbChargersToBenches.png",
+            "votes": 31
+        },
+        {
+            "id": "3",
+            "author": "Martí Puig",
+            "title": "Més vegetació",
+            "description": "Més arbres en un descampat millorarien la qualitat de l'aire, oferint un espai verd, fomentant la biodiversitat i creant un ambient tranquil i saludable per a la comunitat.",
+            "image": "./addVegetation.png",
+            "votes": 21
+        },
+        {
+            "id": "4",
+            "author": "Laia Soler",
+            "title": "Renovar basures Sagrada Familia",
+            "description": "Noves papereres per mantenir l'entorn net i agradable. Les antigues necessiten renovació per millorar la higiene i la imatge de la nostra comunitat.",
+            "image": "./changeTrashcans.png",
+            "votes": 12
+        },
+        {
+            "id": "5",
+            "author": "Gerard Martínez",
+            "title": "Parc de crossfit",
+            "description": "Un nou parc de CrossFit proporciona instal·lacions modernes per a l'entrenament físic, promou la salut i crea una comunitat activa i motivadora.",
+            "image": "./crossfitPark.png",
+            "votes": 12
+        },
+        {
+            "id": "6",
+            "author": "Núria Vila",
+            "title": "Modernitzar mobiliari plana de l'Om",
+            "description": "Modernitzar el mobiliari de la plaça millorarà el confort, l'atractiu i la funcionalitat, creant un espai més agradable per a la comunitat.",
+            "image": "./modernizeMobiliary.png",
+            "votes": 45
+        },
+        {
+            "id": "8",
+            "author": "Marc Garcia",
+            "title": "Més mobiliari de lleure infantil",
+            "description": "Més mobiliari al parc infantil ampliarà les opcions de joc, proporcionant un entorn més ric i entretingut per als nens.",
+            "image": "./newPlayground.png",
+            "votes": 15
+        },
+        {
+            "id": "9",
+            "author": "Laia Soler",
+            "title": "Habilitació per a mobilitat reduïda a l'entrada de la cova",
+            "description": "Més escales habilitades per a persones amb discapacitat millorarien l'accessibilitat, fent que els espais siguin més inclusius i accessibles per a tothom.",
+            "image": "./StairsElevatorForDisabled.png",
+            "votes": 212
+        }
     ]
 }

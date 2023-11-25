@@ -1,11 +1,9 @@
 <script>
-	/** @type {import('./$types').PageData} */
-  
+	/** @type {import('./$types').PageData} */  
   import ThumbUp from "svelte-material-icons/ThumbUp.svelte";
   import mockData from "../../mock/mockDataCityCouncil.json";
   const sortedList = mockData.result;
 </script>
-
 
 
 <style>
