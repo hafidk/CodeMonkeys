@@ -33,9 +33,11 @@
 
   .sidebar {
     width: 200px;
-    height: calc(95vh - 90px);
+    height: fit-content;
     padding: 20px;
     margin-top: 20px;
+    top: 20px;
+    position: sticky;
   }
 
   .content {
