@@ -5,7 +5,6 @@
 
     
 </script>
-<h1>Personal</h1>
 
 
 {#each sortedList as element (element.id)}

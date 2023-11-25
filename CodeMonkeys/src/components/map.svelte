@@ -28,7 +28,7 @@
 <style>
   #map {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
   }
 </style>
