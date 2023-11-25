@@ -1,0 +1,60 @@
+/* Warm Colors Theme */
+
+:root {
+  --primary-color: #6A0572; /* Deep Purple */
+  --secondary-color: #E27D60; /* Salmon */
+  --accent-color: #FFAA5E; /* Apricot */
+  --background-color: #F7E4B2; /* Pale Yellow */
+  --text-color: #004080; /* Navy Blue */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Header Styles */
+header {
+  background-color: var(--primary-color);
+  padding: 10px;
+  color: white;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 10;
+  border-radius: 20px;
+}
+
+
+/* Navigation List Styles */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 20px;
+}
+
+li {
+  font-size: 30px;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: red;
+  text-align: center;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
