@@ -1,0 +1,14 @@
+{
+    "result": [{
+        "author": "Lorem",
+        "title": "Ipsum Dolor",
+        "prompt": "remove bench",
+        "description": "I don't like the bench there",
+        "image": "./imageExample.png",
+        "geoLocation": {
+            "lat": 1,
+            "long": 1
+        },
+        "votes": 100}
+    ]
+}
