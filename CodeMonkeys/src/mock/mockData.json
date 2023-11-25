@@ -1,0 +1,39 @@
+{
+    "result": [{
+        "id":"1",
+        "author": "Lorem",
+        "title": "Ipsum Dolor",
+        "prompt": "remove bench",
+        "description": "I don't like the bench there",
+        "image": "./imageExample.png",
+        "geoLocation": {
+            "lat": 1,
+            "long": 1
+        },
+        "votes": 100},
+        {
+            "id":"2",
+            "author": "Lorem2",
+            "title": "Ipsum Dolor",
+            "prompt": "remove bench",
+            "description": "I don't like the bench there",
+            "image": "./imageExample.png",
+            "geoLocation": {
+                "lat": 1,
+                "long": 1
+            },
+            "votes": 200},
+            {
+                "id":"3",
+                "author": "CodeMonkeys",
+                "title": "Ipsum Dolor",
+                "prompt": "remove bench",
+                "description": "I don't like the bench there",
+                "image": "./imageExample.png",
+                "geoLocation": {
+                    "lat": 1,
+                    "long": 1
+                },
+                "votes": 10}
+    ]
+}
