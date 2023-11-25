@@ -6,20 +6,22 @@
     
 </script>
 
+        {#each sortedList as element (element.id)}
+        <div class="item">
+          <div class="image-section">
+            <img src={element.image} alt={element.author} />
+          </div>
+          <div class="info-section">
+            <h2>{element.title}</h2>
+            <p>Author: {element.author}</p>
+        
+          </div>
+        
+        </div>
+        {/each}
 
-{#each sortedList as element (element.id)}
-<div class="item">
-  <div class="image-section">
-    <img src={element.image} alt={element.author} />
-  </div>
-  <div class="info-section">
-    <h2>{element.title}</h2>
-    <p>Author: {element.author}</p>
 
-  </div>
 
-</div>
-{/each}
   
   <style>
     /* Add styles for the item, image-section, and info-section */
@@ -42,4 +44,6 @@
       flex: 2;
       padding: 10px;
     }
+
   </style>
+

@@ -28,7 +28,9 @@
 <style>
   #map {
     position: absolute;
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
+    width:  calc(100% - 277px);
+    height:  calc(100% - 95px);
+    border-radius: 20px;
+
   }
 </style>

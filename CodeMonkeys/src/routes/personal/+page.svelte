@@ -2,10 +2,8 @@
 	/** @type {import('./$types').PageData} */
     import mockData from "../../mock/mockData.json";
     const sortedList = mockData.result.filter((a) => a.author === "CodeMonkeys");
-
     
 </script>
-
 
 {#each sortedList as element (element.id)}
 <div class="item">
@@ -20,6 +18,7 @@
 
 </div>
 {/each}
+
   
   <style>
     /* Add styles for the item, image-section, and info-section */
@@ -42,4 +41,5 @@
       flex: 2;
       padding: 10px;
     }
+
   </style>
