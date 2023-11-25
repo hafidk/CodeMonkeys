@@ -7,7 +7,7 @@ This project translates the citizens needs to the administration through rendere
 
 # Setup
 To run locally
-  1: Clone the repo
-  1: cd CodeMonkeys
-  2: npm install
-  4: npm run dev -- --open
+- Clone the repo
+- `cd CodeMonkeys`
+- `npm install`
+- `npm run dev -- --open`
