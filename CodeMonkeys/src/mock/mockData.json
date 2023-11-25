@@ -4,7 +4,7 @@
         "author": "Lorem",
         "title": "Ipsum Dolor",
         "prompt": "remove bench",
-        "description": "I don't like the bench there",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero.",
         "image": "./imageExample.png",
         "geoLocation": {
             "lat": 1,
@@ -16,7 +16,7 @@
             "author": "Lorem2",
             "title": "Ipsum Dolor",
             "prompt": "remove bench",
-            "description": "I don't like the bench there",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. ",
             "image": "./imageExample.png",
             "geoLocation": {
                 "lat": 1,
@@ -28,7 +28,7 @@
                 "author": "CodeMonkeys",
                 "title": "Ipsum Dolor",
                 "prompt": "remove bench",
-                "description": "I don't like the bench there",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero.",
                 "image": "./imageExample.png",
                 "geoLocation": {
                     "lat": 1,
