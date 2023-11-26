@@ -4,7 +4,7 @@
             "id": "1",
             "author": "Jordi Costa",
             "title": "Afegir art modern a la plaça major",
-            "description": "La presència de l'art modern a la plaça de l'ajuntament és essencial per enriqueir la nostra experiència urbana. Aquesta forma d'expressió creativa pot inspirar, provocar la reflexió i connectar les persones amb les seves arrels culturals i contemporànies. L'art modern no només decora, sinó que també comunica les múltiples narratives de la nostra societat, donant vida i diversitat al cor del nostre municipi.",
+            "description": "La presència de l'art modern a la plaça de l'ajuntament és essencial. Podem provocar la reflexió i connectar les persones amb les seves arrels culturals i contemporànies. L'art modern comunica les múltiples narratives de la societat.",
             "image": "./addModernArt.png",
             "votes": 312
         },
@@ -12,7 +12,7 @@
             "id": "2",
             "author": "Anna Roca",
             "title": "Cargadors Usb als bancs del passeig",
-            "description": "Cargadors USB als bancs milloren la comoditat pública, permetent que tothom carregui els seus dispositius mentre gaudeix de l'espai exterior, connectant-se i mantenint-se en contacte sense preocupar-se de la bateria.",
+            "description": "Cargadors USB als bancs milloren la comoditat pública. Hem de permetre connectant-se i mantenint-se en contacte sense preocupar-se de la bateria.",
             "image": "./addUsbChargersToBenches.png",
             "votes": 31
         },
@@ -46,7 +46,15 @@
             "title": "Modernitzar mobiliari plana de l'Om",
             "description": "Modernitzar el mobiliari de la plaça millorarà el confort, l'atractiu i la funcionalitat, creant un espai més agradable per a la comunitat.",
             "image": "./modernizeMobiliary.png",
-            "votes": 45
+            "votes": 129
+        },
+        {
+            "id": "7",
+            "author": "Jordi Vila",
+            "title": "Netejar les pareds de manresa",
+            "description": "Fora graffitis dels nostres barris!",
+            "image": "./RemoveGraffiti.png",
+            "votes": 129
         },
         {
             "id": "8",
