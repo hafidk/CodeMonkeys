@@ -1,6 +1,14 @@
 {
     "result": [
         {
+            "id": "0",
+            "author": "Alex R.",
+            "title": "Faltava el 0",
+            "description": "Aquest item no estava associat a cap punt",
+            "image": "./addModernArt.png",
+            "votes": 312
+        },
+        {
             "id": "1",
             "author": "Jordi Costa",
             "title": "Afegir art modern a la plaça major",
@@ -47,6 +55,14 @@
             "description": "Modernitzar el mobiliari de la plaça millorarà el confort, l'atractiu i la funcionalitat, creant un espai més agradable per a la comunitat.",
             "image": "./modernizeMobiliary.png",
             "votes": 45
+        },
+        {
+            "id": "7",
+            "author": "Alex R.",
+            "title": "Faltava el 7",
+            "description": "Aquest item no estava associat a cap punt",
+            "image": "./addModernArt.png",
+            "votes": 312
         },
         {
             "id": "8",
