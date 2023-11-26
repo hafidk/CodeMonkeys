@@ -67,7 +67,7 @@
         <div class="postcard__text">
           <h1 class="postcard__title blue"><a href="#">{element.title}</a></h1>
           <div class="postcard__subtitle small">
-            by {element.author}
+            De {element.author}
           </div>
           <div class="postcard__bar"></div>
           <div class="postcard__preview-txt">{element.description}</div>
@@ -297,7 +297,8 @@
     /*  padding: 10px; */
   }
   .divHeader {
-    background-color: #fff;
+    background-color: #993333;
+    top: 10px;
     /*   border-bottom: 1px solid white;
     border-top: 1px solid white; */
     height: 50px;

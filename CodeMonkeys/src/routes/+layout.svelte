@@ -79,7 +79,7 @@ function loadNextComments() {
     color: white;
     padding: 20px;
     text-align: center;
-    height: 20px;
+    height: 50px;
     display: flex;
     place-content: space-between;
     color: black;
@@ -93,6 +93,7 @@ function loadNextComments() {
     margin-top: 20px;
     top: 20px;
     position: sticky;
+    margin-right: 20px;
   }
 
   .content {
@@ -101,8 +102,8 @@ function loadNextComments() {
   }
 
   img{
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
   }
 
   .icon {
@@ -140,7 +141,7 @@ function loadNextComments() {
       <li><a href="/personal" style="display: flex;"><div class="icon"><AccountStar /></div>Personal</a></li>
       <li><a href="/cityCouncil" style="display: flex;"><div class="icon"><TownHall /></div>Ajuntament</a></li>
       <li style="display:grid;justify-items:center;">
-        <a href="" style="display: flex;"><div class="icon"><Inbox /></div>Bustia</a>
+        <a href="" style="display: flex;"><div class="icon"><Inbox /></div>Bústia</a>
 
         <div class="news-item" transition:fly={{ y: 600, duration: 1000 }}>
            {comment}
