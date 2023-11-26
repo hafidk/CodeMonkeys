@@ -1,6 +1,14 @@
 {
     "result": [
         {
+            "id": "0",
+            "author": "Alex R.",
+            "title": "Faltava el 0",
+            "description": "Aquest item no estava associat a cap punt",
+            "image": "./addModernArt.png",
+            "votes": 312
+        },
+        {
             "id": "1",
             "author": "Jordi Costa",
             "title": "Afegir art modern a la plaça major",
@@ -55,6 +63,14 @@
             "description": "Fora graffitis dels nostres barris!",
             "image": "./RemoveGraffiti.png",
             "votes": 129
+        },
+        {
+            "id": "7",
+            "author": "Alex R.",
+            "title": "Faltava el 7",
+            "description": "Aquest item no estava associat a cap punt",
+            "image": "./addModernArt.png",
+            "votes": 312
         },
         {
             "id": "8",

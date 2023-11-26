@@ -8,6 +8,7 @@
   import HomeCircle from "svelte-material-icons/HomeCircle.svelte";
   import TrendingUp from "svelte-material-icons/TrendingUp.svelte";
   import AccountStar from "svelte-material-icons/AccountStar.svelte";
+  import MapMarkerPlusOutline from "svelte-material-icons/MapMarkerPlusOutline.svelte";
   import TownHall from "svelte-material-icons/TownHall.svelte";
   import Inbox from "svelte-material-icons/Inbox.svelte";
 
@@ -134,6 +135,7 @@ function loadNextComments() {
     <!-- Sidebar content and navigation links go here -->
     <ul>
       <li><a href="/" style="display: flex;"><div class="icon"><HomeCircle /></div>Landing</a></li>
+      <li><a href="/suggest" style="display: flex;"><div class="icon"><MapMarkerPlusOutline /></div>Suggest</a></li>
       <li><a href="/top" style="display: flex;"><div class="icon"><TrendingUp /></div>Top</a></li>
       <li><a href="/personal" style="display: flex;"><div class="icon"><AccountStar /></div>Personal</a></li>
       <li><a href="/cityCouncil" style="display: flex;"><div class="icon"><TownHall /></div>Ajuntament</a></li>
