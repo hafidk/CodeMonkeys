@@ -1,8 +1,7 @@
 <script>
   /** @type {import('./$types').PageData} */
-  import ThumbUp from "svelte-material-icons/ThumbUp.svelte";
   import mockData from "../../mock/mockData.json";
-  const sortedList = mockData.result.filter((element) => element.author == "CodeMonkeys");
+  const sortedList = mockData.result.filter((element) => element.author == "Laia Soler");
 </script>
   
 
@@ -180,9 +179,6 @@
   
 {#each sortedList as element (element.id)}
   <article class="postcard dark blue">
-    <div class="pill">
-      <div style="display: flex;">{element.votes} &nbsp; <ThumbUp size="18px" /></div>
-    </div>
     <a class="postcard__img_link" href="#">
       <img class="postcard__img" src="{element.image}" alt="Image Title" />
     </a>

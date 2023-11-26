@@ -2,10 +2,57 @@
 	/** @type {import('./$types').PageData} */
     import ThumbUp from "svelte-material-icons/ThumbUp.svelte";
     import mockData from "../../mock/mockData.json";
-    const sortedList = mockData.result.sort((a, b) => b.votes - a.votes); 
+    import toast, {Toaster} from 'svelte-french-toast'
+    import { onMount } from 'svelte';
+
+    onMount(() => {
+      const scrollToSection = () => {
+        const hash = window.location.hash.substr(1); // Remove the leading '#'
+        const targetSection = document.getElementById(hash);
+
+        if (targetSection) {
+          targetSection.scrollIntoView({
+            behavior: 'smooth',
+          });
+        }
+      };
+
+      // Listen for hash changes and scroll to the corresponding section
+      window.addEventListener('hashchange', scrollToSection);
+
+      // Scroll to the initial section if the hash is present in the URL
+      scrollToSection();
+    });
+
+    let sortedList = mockData.result.sort((a, b) => b.votes - a.votes); 
+
+    let allowOneVote = [{id:"0",voted: false}]
+    /**
+   * @param {string} id
+   */
+   function increaseLikes(id) {
+    const existingVote = allowOneVote.find(vote => vote.id === id);
+    if (existingVote && existingVote.voted) {
+      console.log("Already voted, moving on");
+      toast.error('Vot repetit!')
+    } else {
+      // Add a new vote object or update an existing one
+      const updatedVotes = [...allowOneVote, {id:id, voted:true}]
+
+      allowOneVote = updatedVotes;
+      // Additional actions if needed
+
+      sortedList = sortedList.map(obj =>
+      obj.id === id ? { ...obj, ["votes"]: obj.votes + 1 } : obj
+    );
+    toast.success('Vot enregistrat!')
+    sortedList = sortedList.sort((a, b) => b.votes - a.votes); 
+  }
+}
 </script>  
 
 <style>
+
    @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
   /* This pen */
 
@@ -34,6 +81,7 @@
   }
   .postcard.dark {
     background-color: #18151f;
+    
   }
   .postcard a {
     color: inherit;
@@ -178,9 +226,9 @@
 </style>
   
 {#each sortedList as element (element.id)}
-  <article class="postcard dark blue">
+  <article class="postcard dark blue" id={element.id}>
     <div class="pill">
-      <div style="display: flex;">{element.votes} &nbsp; <ThumbUp size="18px" /></div>
+      <div style="display: flex;position: relative; z-index: 2; cursor:pointer;" on:click={() => increaseLikes(element.id)}>{element.votes} &nbsp; <ThumbUp size="18px" /></div>
     </div>
     <a class="postcard__img_link" href="#">
       <img class="postcard__img" src="{element.image}" alt="Image Title" />
@@ -195,3 +243,5 @@
     </div>
   </article>
 {/each}
+
+  <Toaster />

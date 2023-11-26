@@ -104,7 +104,7 @@
             {
               type: "Feature",
               properties: {
-                id: "0",
+                id: "5",
                 nom: "Passeig del Riu",
               },
               geometry: {
@@ -115,7 +115,7 @@
             {
               type: "Feature",
               properties: {
-                id: "1",
+                id: "8",
                 nom: "Parc de l'Agulla",
               },
               geometry: {
@@ -126,7 +126,7 @@
             {
               type: "Feature",
               properties: {
-                id: "2",
+                id: "1",
                 nom: "Plaça Major",
               },
               geometry: {
@@ -148,7 +148,7 @@
             {
               type: "Feature",
               properties: {
-                id: "4",
+                id: "7",
                 nom: "Plana de l'Om",
               },
               geometry: {
@@ -159,7 +159,7 @@
             {
               type: "Feature",
               properties: {
-                id: "5",
+                id: "6",
                 nom: "Carrer Balmes",
               },
               geometry: {
@@ -170,7 +170,7 @@
             {
               type: "Feature",
               properties: {
-                id: "6",
+                id: "4",
                 nom: "Carrer de la Sagrada Família",
               },
               geometry: {
@@ -181,7 +181,7 @@
             {
               type: "Feature",
               properties: {
-                id: "7",
+                id: "2",
                 nom: "Passeig Pere III",
               },
               geometry: {
@@ -192,7 +192,7 @@
             {
               type: "Feature",
               properties: {
-                id: "8",
+                id: "9",
                 nom: "Pont Vell",
               },
               geometry: {

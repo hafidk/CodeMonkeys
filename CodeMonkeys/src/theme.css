@@ -1,5 +1,9 @@
 /* Warm Colors Theme */
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
   --primary-color: #6A0572; /* Deep Purple */
   --secondary-color: #E27D60; /* Salmon */

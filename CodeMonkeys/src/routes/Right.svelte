@@ -9,7 +9,7 @@
 
   export let panelVisualState;
 
-  let infoLayer = "";
+  let infoLayer;
 
   function closeInfoPanelRight() {
     /*  getFeatureInfoStore.set(false); */
@@ -55,15 +55,14 @@
         >
       </div>
     </div>
-
     <div class="divBody" transition:fly={{ y: 1200, duration: 1250 }}>
       <article class="postcard dark blue">
         
-        <a class="postcard__img_link" href="#">
+        <a class="postcard__img_link" href="/top#{element.id}">
           <img class="postcard__img" src="{element.image}" alt="Image Title" />
         </a>
         <div class="pill">
-          <div style="display: flex;">{element.votes} &nbsp; <ThumbUp size="18px" /></div>
+          <div style="display: flex;" on:click={() => redirectToPage(element.id)}>{element.votes} &nbsp; <ThumbUp size="18px" /></div>
         </div>
         <div class="postcard__text">
           <h1 class="postcard__title blue"><a href="#">{element.title}</a></h1>
@@ -181,7 +180,7 @@
      transition: transform 0.3s ease;
    }
    .postcard .postcard__text {
-     padding: 3rem;
+     padding: 10px;
      width: 100%;
    }
    
@@ -315,7 +314,7 @@
       flex: auto;
       position: absolute;
       right: 15px;
-      top: 20px;
+      top: 93px;
       width: 315px;
 
       max-width: 630px;
