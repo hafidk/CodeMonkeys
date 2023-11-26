@@ -99,11 +99,12 @@
      font-size: 2rem;
    }
 
-   .postcard .postcard__img {
-     max-width: 300px;
-     max-height: 100%;
-     transition: transform 0.3s ease;
-   }
+    .postcard .postcard__img {
+      max-width: 40%;
+      max-height: 100%;
+      transition: transform 0.3s ease;
+      object-fit: scale-down;
+    }
    .postcard .postcard__text {
      padding: 3rem;
      width: 100%;
@@ -189,7 +190,7 @@
    <div class="postcard__text">
      <h1 class="postcard__title blue"><a href="#">{element.title}</a></h1>
      <div class="postcard__subtitle small">
-       by {element.author}
+       de {element.author}
      </div>
      <div class="postcard__bar"></div>
      <div class="postcard__preview-txt">{element.description}</div>
