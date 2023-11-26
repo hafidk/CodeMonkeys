@@ -170,7 +170,7 @@
    position: absolute;
    top: 10px;
    right: 10px;
-   background-color:  #0076bd; /* Choose your desired background color */
+   background-color:  #993333; /* Choose your desired background color */
    color: white; /* Choose your desired text color */
    padding: 5px 10px 5px 10px;
    border-radius: 20px; /* Adjust the border-radius for a rounded appearance */

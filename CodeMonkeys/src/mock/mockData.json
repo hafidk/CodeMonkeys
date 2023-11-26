@@ -3,10 +3,10 @@
         {
             "id": "0",
             "author": "Alex R.",
-            "title": "Faltava el 0",
-            "description": "Aquest item no estava associat a cap punt",
-            "image": "./addModernArt.png",
-            "votes": 312
+            "title": "Menys cotxes!",
+            "description": "No volem cotxes a manresa!",
+            "image": "./sda.png",
+            "votes": 0
         },
         {
             "id": "1",
@@ -14,7 +14,7 @@
             "title": "Afegir art modern a la plaça major",
             "description": "La presència de l'art modern a la plaça de l'ajuntament és essencial. Podem provocar la reflexió i connectar les persones amb les seves arrels culturals i contemporànies. L'art modern comunica les múltiples narratives de la societat.",
             "image": "./addModernArt.png",
-            "votes": 312
+            "votes": 20
         },
         {
             "id": "2",
@@ -46,7 +46,7 @@
             "title": "Parc de crossfit",
             "description": "Un nou parc de CrossFit proporciona instal·lacions modernes per a l'entrenament físic, promou la salut i crea una comunitat activa i motivadora.",
             "image": "./crossfitPark.png",
-            "votes": 12
+            "votes": 210
         },
         {
             "id": "6",
@@ -65,12 +65,12 @@
             "votes": 129
         },
         {
-            "id": "7",
+            "id": "10",
             "author": "Alex R.",
-            "title": "Faltava el 7",
-            "description": "Aquest item no estava associat a cap punt",
-            "image": "./addModernArt.png",
-            "votes": 312
+            "title": "Més iluminació",
+            "description": "Més iluminació a la ciutat!",
+            "image": "./sdas.png",
+            "votes": 2
         },
         {
             "id": "8",
@@ -86,7 +86,7 @@
             "title": "Habilitació per a mobilitat reduïda a l'entrada de la cova",
             "description": "Més escales habilitades per a persones amb discapacitat millorarien l'accessibilitat, fent que els espais siguin més inclusius i accessibles per a tothom.",
             "image": "./StairsElevatorForDisabled.png",
-            "votes": 212
+            "votes": 100
         }
     ]
 }

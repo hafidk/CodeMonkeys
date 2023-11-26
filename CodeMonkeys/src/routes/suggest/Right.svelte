@@ -342,7 +342,8 @@
     /*  padding: 10px; */
   }
   .divHeader {
-    background-color: #fff;
+    background-color: #993333;
+    top: 10px;
     /*   border-bottom: 1px solid white;
     border-top: 1px solid white; */
     height: 50px;

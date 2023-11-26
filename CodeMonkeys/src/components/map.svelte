@@ -217,7 +217,7 @@
           visibility: "visible",
         },
         paint: {
-          "circle-color": "#fabc20",
+          "circle-color": "#993333",
           "circle-stroke-color": "#fff",
           "circle-stroke-width": 3,
           "circle-radius": 10,
