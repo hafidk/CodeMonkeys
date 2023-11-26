@@ -97,7 +97,6 @@
             <div class="postcard__subtitle small">
       
             </div>
-            <div class="postcard__bar"></div>
             <div class="postcard__preview">
                 <form>
                     <input type="file" accept="image/*" bind:this={fileInput} on:change={handleFileChange} />
@@ -140,7 +139,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:395px;
+    width:405px;
   }
 
   .image {
