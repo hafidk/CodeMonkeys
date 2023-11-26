@@ -14,6 +14,10 @@
     function closeInfoPanelRight() {
       /*  getFeatureInfoStore.set(false); */
       panelVisualState.infoShow = false;
+      selectedFile = undefined;
+        fileInput= undefined;
+        imageUrl= undefined;
+        generatedImage = false;
     }
     let currentId;
     let element;
@@ -36,6 +40,35 @@
     import ThumbUp from "svelte-material-icons/ThumbUp.svelte";
     import mockData from "../../mock/mockData.json";
    
+    let selectedFile;
+    let fileInput;
+    let imageUrl;
+    let generatedImage = false;
+
+  function handleFileChange(event) {
+    const fileInput = event.target;
+    if (fileInput.files.length > 0) {
+      selectedFile = fileInput.files[0];
+      // You can do something with the selected file here
+      imageUrl = URL.createObjectURL(selectedFile);
+      console.log("Selected File:", selectedFile);
+    }
+  }
+  
+  function generateImages(){
+    console.log("OU")
+      generatedImage = true;
+    }
+
+    function selectImage(elem){
+        console.log(this)
+        this.style.border="2px solid #0076bd";
+    }
+
+ 
+
+   
+
   </script>
   
   
@@ -67,21 +100,24 @@
             <div class="postcard__bar"></div>
             <div class="postcard__preview">
                 <form>
-                    <input type="file"/>
-                    <!-- Display image -->
-                    <div class="image">
-                        <img src="https://picsum.photos/200/300" alt="Image preview..." >
-                    </div>
-
+                    <input type="file" accept="image/*" bind:this={fileInput} on:change={handleFileChange} />
+                    {#if selectedFile}
+                      <img src={imageUrl} alt="Selected Image" />
+                    {/if}
+                    <br>
                     <input type="text" placeholder="Title"/>
                     <textarea type="text" placeholder="Description"></textarea> 
                     <input type="text" placeholder="Prompt"/>
-                    <button>Generate</button>
+                    <button on:click={generateImages}>Generate</button>
                     <!-- Display AI image -->
-                    <div class="image">
-                        <img src="https://picsum.photos/200/300" alt="Image preview...">
-                    </div>
-                    <button>Save</button>
+                    {#if generatedImage}
+                        <div style="display:flex;">
+                            <div style="margin:0.2rem;"><img  on:click={selectImage} src="./addModernArt1.jpeg" alt="Selected Image" /></div>
+                            <div style="margin:0.2rem;"><img  on:click={selectImage}  src="./addModernArt2.jpeg" alt="Selected Image" /></div>
+                            <div style="margin:0.2rem;"><img  on:click={selectImage}  src="./addModernArt3.jpeg" alt="Selected Image" /></div>
+                        </div>
+                    {/if}
+                    <button on:click={closeInfoPanelRight}>Save</button>
                 </form>
                 
             </div>
