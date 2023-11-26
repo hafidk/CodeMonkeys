@@ -66,22 +66,24 @@
             </div>
             <div class="postcard__bar"></div>
             <div class="postcard__preview">
-        
-                <input type="file"/>
-                <!-- Display image -->
-                <div class="image">
-                    <img src="https://picsum.photos/200/300" alt="Image preview..." >
-                </div>
+                <form>
+                    <input type="file"/>
+                    <!-- Display image -->
+                    <div class="image">
+                        <img src="https://picsum.photos/200/300" alt="Image preview..." >
+                    </div>
 
-                <input type="text" placeholder="Title"/>
-                <input type="text" placeholder="Description"/>
-                <input type="text" placeholder="Prompt"/>
-                <button>Generate</button>
-                <!-- Display AI image -->
-                <div class="image">
-                    <img src="https://picsum.photos/200/300" alt="Image preview...">
-                </div>
-                <button>Save</button>
+                    <input type="text" placeholder="Title"/>
+                    <textarea type="text" placeholder="Description"></textarea> 
+                    <input type="text" placeholder="Prompt"/>
+                    <button>Generate</button>
+                    <!-- Display AI image -->
+                    <div class="image">
+                        <img src="https://picsum.photos/200/300" alt="Image preview...">
+                    </div>
+                    <button>Save</button>
+                </form>
+                
             </div>
           </div>
         </article>
@@ -96,6 +98,37 @@
   
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
  /* This pen */
+
+ /* Add your custom styles here */
+ form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:395px;
+  }
+
+  .image {
+    margin: 10px 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+  }
+
+  input,
+  textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+
+  button {
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
 
  .dark {
    background: #110f16;
